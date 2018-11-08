@@ -2,7 +2,7 @@ slick:
   - name: Car name
     subname: 789 lorem
     rate: 9.8
-    img: /assets/img/ford.jpg
+    img: /Vehiculum/assets/img/ford.jpg
     price: 799
     vprice: 600
     sprice: 3095
@@ -11,7 +11,7 @@ slick:
   - name: Porsche
     subname: 789 lorem
     rate: 9.9
-    img: /assets/img/porsche.jpg
+    img: /Vehiculum/assets/img/porsche.jpg
     price: 799
     vprice: 600
     sprice: 4000
@@ -20,7 +20,7 @@ slick:
   - name: Seat
     subname: 789 lorem
     rate: 9.8
-    img: /assets/img/seat.jpg
+    img: /Vehiculum/assets/img/seat.jpg
     price: 799
     vprice: 600
     sprice: 4000
@@ -30,7 +30,7 @@ slick:
   - name: Porsche
     subname: Boxter 718 GTS
     rate: 10
-    img: /assets/img/porsche718.jpg
+    img: /Vehiculum/assets/img/porsche718.jpg
     price: 799
     vprice: 600
     sprice: 4000
