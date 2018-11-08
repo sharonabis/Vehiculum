@@ -1,0 +1,48 @@
+.btn{
+	border-radius: 0 !important;
+}
+.btn-gold{
+	background: $gold;
+	color: #fff;
+
+	&:hover, &:active, &:focus{
+		color: #fff;
+		background: darken($gold, 20%);
+	}
+}
+
+.btn-green{
+	background: $green-bg;
+	color: #fff;
+
+	&:hover, &:active, &:focus{
+		color: #fff;
+		background: lighten($green-bg, 20%);
+	}
+}
+.btn-light-gold{
+	background: $gold-light;
+	color: #000;
+
+	&:hover, &:active, &:focus{
+		color: #000;
+		background: darken($gold-light, 20%);
+	}
+}
+.btn-trans{
+	border: 1px solid #fff;
+	color: #fff;
+	&:hover, &:active, &:focus{
+		background: #ffffff30;
+		color: #fff;
+	}	
+}
+.btn-red{
+	background: $red-bg;
+	color: #fff;
+
+	&:hover, &:active, &:focus{
+		color: #fff;
+		background: darken($red-bg, 20%);
+	}
+}

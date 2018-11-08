@@ -1,0 +1,49 @@
+.navbar{
+	a{
+		color:#000;
+		&:hover, &:active, &:focus{
+			color: #777;
+		}
+	}
+	.dropdown-menu{
+		padding:0 10px;
+	}
+}
+.home-hero{
+  padding:105px 0;
+  background: #000;
+  color:#fff;
+  h1{
+  	font-size: 40px;
+  }
+  p{
+  	 margin: 30px auto;
+  }
+  span{
+  	color: $red-text;
+  }
+  .btn{
+  	width: 295px;
+  	margin:  auto 10px;
+  }
+}
+@media screen and (max-width: 767px){
+	.navbar {
+		.dropdown-menu{
+			border:none;
+		}
+	}
+	.home-hero{
+		padding: 50px 0;
+		text-align:center;
+		h1 {
+			font-size:32px;
+		}
+		.btn{
+			margin:10px auto;
+			text-align:center;
+			width: 250px;
+		}
+		
+	}
+}

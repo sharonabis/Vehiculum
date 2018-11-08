@@ -1,0 +1,108 @@
+---
+layout: default
+permalink: home.html
+---
+
+{% include header.html %}
+
+<div class="container">
+	<div class="row mrg-50 icon-title">
+		<div class="col-12">
+			<h3><img src="/assets/img/fire.svg" alt="Fire icon">Only on Vehiculum</h3>
+			<section class="slick-cars">
+		{% for data in site.data.data.slick %}
+				<div class="car">
+					<div class="box">
+				 		<div class="name">
+				 			<h4>{{ data.name }}</h4>
+				 			<p>{{ data.subname }}</p>
+				 		</div>
+				 	<div class="rate">
+				 		<small>Attractivnes</small>
+				 		<br>{{ data.rate }}
+					</div>
+				 	<img src="{{ data.img }}" alt="Car">
+
+					<p>Avr. cost per month <span>€ {{ data.price }}</span></p>
+					<p>Vehiculum price <span>€ {{ data.vprice }}</span></p>
+					<p>Saved during deal <span class="red">€ {{ data.sprice }}</span></p>
+					{% if data.text == null %}
+						
+					{% else %}
+					<div class="text">
+							This offer is valid only for the  next 48 hours. Hurry up!
+						</div>
+					{% endif %}	
+					</div>
+				</div>
+			   {% endfor %}	
+		</section>
+		</div>	
+	</div>
+		<section class="brand mrg-50">
+			<div class="row">
+				<div class="col-12">
+					<h2>Find leasing for your brand</h2>
+					<div class="mrg-50"><img src="/assets/img/brands.png" alt="Cars brands"></div>
+				</div>
+			</div>
+
+
+		</section>
+</div>
+<section class="m-offer">
+	<div class="bg-black">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2>OFFER OF THE MONTH</h2>
+					<h3>Ford Mondero 1.5 Eco</h3>
+				</div>	
+			</div>
+		</div>
+	</div>
+	<div class="bg-grey">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+				 <div class="box">
+				 	<p>Avr. cost per month <span>€ 700</span></p>
+					<p>Vehiculum price <span>€ 800</span></p>
+					<p>Saved during deal <span class="red">€ 7000</span></p>
+				 	
+				 </div>
+				<div class="btn btn-red">LAST 2 CARS AVAILABLE</div>
+
+				</div>
+			</div>
+		</div>	
+	</div>
+</section>
+<section class="mrg-50 offer-list">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h2>Top offers in Vehiculum</h2>
+				{% for offer in site.data.data.offers %}
+				<div class="box clearfix">
+					<p class="left">{{ offer.title }} </p> <hr class="list"><p class="right"><a href="#" class="btn btn-light-gold">{{ offer.rate }}</a><a href="#" class="btn btn-green">Check offer</a></p>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>				
+</section>
+<section >
+	<div class="container">
+		<div class="row">
+			<div class="col-12 text-center">
+				<h2>Found better offer? Submit it now!</h2>
+				<div class="mrg-50">
+					<img src="/assets/img/plus.svg" alt="icon">
+				</div>
+			</div>
+		</div>
+	</div>			
+
+</section>
+

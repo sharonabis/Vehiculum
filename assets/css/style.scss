@@ -1,0 +1,23 @@
+---
+---
+@import 'vars';
+@import 'header';
+@import 'btn';
+@import 'global';
+@import 'slick';
+
+body{
+	 font-family: Montserrat;
+}
+h2{
+	font-size:24px;
+}
+h3{
+	font-size: 20px;
+}
+img{
+	max-width: 100%;
+}
+.mrg-50{
+	margin:50px auto;
+}

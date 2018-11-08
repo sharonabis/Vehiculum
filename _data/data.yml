@@ -1,0 +1,53 @@
+slick:
+  - name: Car name
+    subname: 789 lorem
+    rate: 9.8
+    img: /assets/img/ford.jpg
+    price: 799
+    vprice: 600
+    sprice: 3095
+    text: true
+  
+  - name: Porsche
+    subname: 789 lorem
+    rate: 9.9
+    img: /assets/img/porsche.jpg
+    price: 799
+    vprice: 600
+    sprice: 4000
+    text: 
+  
+  - name: Seat
+    subname: 789 lorem
+    rate: 9.8
+    img: /assets/img/seat.jpg
+    price: 799
+    vprice: 600
+    sprice: 4000
+    text: true
+  
+  
+  - name: Porsche
+    subname: Boxter 718 GTS
+    rate: 10
+    img: /assets/img/porsche718.jpg
+    price: 799
+    vprice: 600
+    sprice: 4000
+    text: true
+
+offers:
+  - title: Ford Mondeo 1.5 Eco Boost
+    rate: 10
+  
+  - title: Peugeot 308 1.6 HDI
+    rate: 9.9
+  
+  - title: Volvo V40 T3 Momentum
+    rate: 9.9
+
+  - title: Jaguar XE 20d AWD
+    rate: 9.3
+
+  - title: Porsche Boxter 718 GTS
+    rate: 8.1

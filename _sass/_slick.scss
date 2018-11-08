@@ -1,0 +1,51 @@
+.slick-cars{
+	margin-top: 30px;
+	.box{
+		width:295px;
+		border: solid 1px #eee;
+		padding:20px;
+		font-size: 14px;
+		min-height: 445px;
+		margin: auto;
+
+	}
+	img{
+		width:268px;
+	}
+	
+	.name{
+		float:left;
+		h4{
+			font-size:18px;
+		}
+		p{
+			color: $grey-text;
+			font-size:14px;
+		}
+	}
+	.text{
+		margin: 35px auto 10px;
+	}
+	.rate{
+		background: $gold-light;
+		text-align: center;
+		border-radius: 5px;
+		padding: 0 0px 0 4px;
+		float: right;
+		small{
+			font-size: 10px;
+			text-decoration: underline;
+		}
+	}
+}
+.slick-arrow{
+	display: none !important;
+}
+
+@media screen and (max-width: 767px){
+	.slick-cars{
+		.box{
+			width: 260px;
+		}
+	}
+}
